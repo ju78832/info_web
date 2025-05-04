@@ -31,7 +31,6 @@ export async function POST(req: NextRequest) {
       },
     });
     return NextResponse.json(formData);
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (error) {
     return NextResponse.json(
       { error: "Something went wrong" },
